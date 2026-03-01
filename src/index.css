@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+      font-family: "Inter", sans-serif;
+      font-weight: bold;
+      background-color: oklch(91% 0.096 180.426);
+      width: 100%;
+}
+/* font-group */
+.font-group{
+      font-size: 1.3rem;
+      text-transform: capitalize;
+      color: oklch(14.8% 0.004 228.8);
+}
+/* span-group */
+.span-group{
+      font-size: 1rem;
+      color: oklch(90.5% 0.182 98.111);
+      text-transform: capitalize;
+}
+/* font-title */
+.font-title{
+      font-size: 1.3rem;
+      text-transform: capitalize;
+      color: oklch(14.8% 0.004 228.8);
+}
+/* font-text */
+.font-text{
+      font-size: 0.9rem;
+      color: black;
+      transition: all .5s linear;
+      text-transform: capitalize;
+}
+.font-text:hover{
+      transition-duration: .5s;
+      opacity: 0.7;
+      color: gray;
+}
+/* font-desc */
+.font-desc{
+      font-size: 0.7rem;
+      color: oklch(55.849% 0.11902 241.619);
+}
+/* btn */
+.btn{
+      width: 170px;
+      display: block;
+      padding: 5px 27px;
+      border: 1px solid oklch(79.2% 0.209 151.711);
+      transition: all .3s linear;
+      color: rgb(200, 17, 17);
+      border-radius: 17px;
+      text-transform: capitalize;
+      outline: none;
+      text-align: center;
+      margin-top: 20px;
+}
+.btn:hover{
+      transition-duration: .3s;
+      background-color: oklch(79.2% 0.209 151.711);
+      color: black;
+}
+/* shadow */
+.shadow:hover{
+      box-shadow: 15px 15px 15px rgba(oklch(15.907% 0.00002 271.152));
+}
