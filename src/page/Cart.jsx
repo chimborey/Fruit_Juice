@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../COmponents/ShopContext'
 import { FaTrash } from "react-icons/fa";
-import CartItems from '../Components/CartItems';
+import CartItems from '../COmponents/CartItems';
 import { BsCart3 } from "react-icons/bs";
 const Cart = () => {
   const {
